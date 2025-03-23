@@ -1,2 +1,15 @@
+ <style>
+        .holder {
+            display: grid;
+            width: 200px;
+            height: 200px;
+            grid-template-rows: repeat(2, 1fr);
+            grid-template-columns: repeat(2, 1fr);
+        }
 
-/* Your CSS Code here. */
+        .item {
+            border: 1px solid black;
+            text-align: center;
+            padding: 20px;
+        }
+    </style>
